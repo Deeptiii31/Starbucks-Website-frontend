@@ -1,0 +1,346 @@
+*{
+		padding:0px;
+		margin:0px;
+}
+body{
+		background-color:white;
+}
+.menu{
+		width:1550px;
+		height:90px;
+		background-color:white;
+		margin:auto;
+}
+.logo{
+	width:230px;
+	height:90px;
+	background-color:white;
+	float:left;
+}   
+.menu1{
+	width:700px;
+	height:90px;
+	background-color:white;
+	float:left;
+}
+.submenu{  
+			display:inline-block;
+			margin:40px 0px 0px 50px;	
+}
+.btn{
+	text-decoration:none;
+	color:#212529;
+	font-family:'SoDoSans_Light', Helvetica, sans-serif !important;
+	font-size:20px;
+}
+.menu2{
+	width:620px;
+	height:90px;
+	background-color:white;
+	float:right;
+}
+#s1{
+	width:320px;
+	height:50px;
+	border-radius:25px;
+	border-color:black;
+	padding:10px;
+	margin-right:80px;
+}
+.message{
+	width:1550px;
+	height:90px;
+	background-color:#1E3932;
+	margin:auto;
+}
+.message1{
+	width:640px;
+	height:70px;
+	background-color:#1E3932;
+	float:left;
+	margin:20px 0px 0px 90px;
+	
+}
+.message2{
+	width:640px;
+	height:70px;
+	background-color:#1E3932;
+	float:right;
+	margin:20px 0px 0px 70px;
+}
+.bista{
+
+	height:350px;
+	width:1550px;
+	margin:auto;
+	background-color:#EDEBE9;	
+	margin-top:30px;
+	
+}
+.bista1{
+
+	height:80px;
+	width:1550px;
+	margin:auto;
+	background-color:#EDEBE9;	
+	font-family:SoDoSans_Bold, Helvetica, sans-serif  ! important;
+}
+.bista2{
+
+	height:180px;
+	width:413px;
+	margin:30px 0px 0px 132px; 
+	background-color:white;
+	float:left;
+	border-radius:20px;
+}
+.bista3{
+
+	height:180px;
+	width:413px;
+	margin:30px 0px 0px 40px;
+	background-color:white;
+	float:left;
+	border-radius:20px;
+}
+
+.bista4{
+
+	height:180px;
+	width:413px;
+	margin:30px 0px 0px 40px;
+	background-color:white;
+	float:left;
+	border-radius:20px;
+}
+.Special{
+
+	height:300px;
+	width:1450px;
+	margin:auto;
+	background-color:white;	
+	margin-top:60px;
+}
+.Hand{
+
+	height:330px;
+	width:1550px;
+	margin:auto;
+	background-color:white;	  
+}
+.Handcraft{
+	height:80px;
+	width:1550px;
+	margin:auto;
+	background-color:white;	
+       color:#1e3932;
+	font-family:SoDoSans_Bold, Helvetica, sans-serif  ! important;
+}
+.Hand1{
+
+	height:130px;
+	width:130px;
+	margin:40px 0px 0px 100px;
+	background-color:red;
+	border-radius:120px;
+	float:left;
+        font-family:SoDoSans_Semibold, Helvetica, sans-serif  ! important;
+     
+}
+.Latest{
+	height:450px;
+	width:1550px;
+	margin:auto;
+	background-color:white;
+}
+.Latest1{
+	height:330px;
+	width:390px;
+	float:left;	
+	margin:30px 0px 0px 80px ;
+	background-color:pink;
+	border-radius:10px;
+}
+.slide{
+	height:470px;
+	width:1550px;
+	margin:auto;
+	background-color:#EDEBE9;
+}
+.slide1{
+	height:330px;
+	width:1300px;
+	margin:30px 0px 0px 100px;
+	background-color:#EDEBE9;	
+	float:left; 
+	border-radius:10px;	
+}
+.footer{
+	height:670px;
+	width:1550px;
+	margin:auto;
+	background-color:#0E382C;
+}
+.footer1{
+	height:590px;
+	width:240px;
+	margin:5px;
+	background-color:#0E382C;
+	float:left;	
+}
+.n1{
+         font-family:'SoDoSans_Light', Helvetica, sans-serif !important;
+}
+
+.web{
+	height:120px;
+	width:1550px;
+	margin:auto;
+	background-color:#0E382C;	
+}
+
+@media only screen and (max-width: 800px) {
+
+	.menu{
+		width:100%;
+		height:90px;
+		margin:auto;
+    }
+	.logo{
+		width:100%;
+		height:90px;
+		margin:auto;
+	}
+	.menu1{
+		width:100%;
+		height:400px;
+		margin-left:0px;
+		margin-right:0px;
+		
+
+	}
+	.submenu{
+		   width:50%;
+			height:auto;
+		display:inline-block;
+		text-align:center;
+		margin:10px;
+		padding:10px 0px 30px 80px;
+     }
+	 .menu2{
+		width:100%;
+		height:100px;
+		margin:auto;
+	}
+	#s1{
+		width:100% ;
+		height:auto;
+		padding:10px;
+	    margin-right:80px;	
+	}
+	.message{
+		width:100%;
+		height:90px;
+		margin:auto;
+	}
+	.message1{
+		width:100%;
+		height:70px;
+		margin:auto;	
+	}
+	.message2{
+		width:100%;
+		height:70px;
+		margin:auto;
+		padding-right:400px;
+	}
+.bista{ 
+	height:800px;
+	width:100%;
+	margin:auto;
+      }
+.bista1{
+        height:80px;
+	width:100%;
+	margin:auto;
+}
+.bista2{
+
+	height:180px;
+	width:100%;
+	margin:auto;
+	margin-top:50px;
+}
+.bista3{
+
+	height:180px;
+	width:100%;
+	margin:auto;	
+}
+
+.bista4{
+
+	height:180px;
+	width:100%;
+	margin:auto;
+}
+.Special{
+	height:auto;
+	width:100%;
+	margin:auto;	
+}
+.Hand{
+
+	height:630px;
+	width:100%;
+	margin:auto;
+}
+.Handcraft{
+	height:80px;
+	width:100%;
+	margin:auto;
+}
+.Hand1{
+
+	height:130px;
+	width:37%;
+	margin:20px;
+}
+.Latest{
+	height:500px;
+	width:100%;
+	margin:auto;
+}
+.Latest1{
+	height:330px;
+	width:100%;	
+	margin:auto;
+	}
+.slide{
+	height:470px;
+	width:100%;
+	margin:auto;
+	}
+.slide1{
+	height:330px;
+	width:100%;
+	margin:auto;
+}
+.footer{
+	height:1500px;
+	width:100%;
+	margin:500px 0px 0px 0px;
+
+}
+.footer1{
+	height:300px;
+	width:100%;
+	margin:auto;	
+}
+.web{
+	height:auto;
+	width:100%;
+       margin:auto;
+}
+	
+}
